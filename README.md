@@ -46,10 +46,10 @@ Youth Affairs is founded and spearheaded by passionate youth leaders dedicated t
 - **Yuva Sansad Jaipur 2.0** *(Flagship Upcoming Edition)* — Comprehensive two-day national youth parliament simulation bringing delegates together in Jaipur.
 - **Yuva Sansad Rajasthan** — State-level parliamentary debate forum.
 - **Yuva Sansad Bengaluru** *(4–5 August 2026)* — Southern regional conclave for youth policymakers.
-- **Yuva Samvaad MUN 2026** *(25–26 July 2026)* — Prestigious diplomatic simulation deliberating global crises and geopolitical treaties.
+- **Yuva Samvaad MUN'26** *(25–26 July 2026)* — Prestigious diplomatic simulation deliberating global crises and geopolitical treaties.
 
 ### 🔗 Event Links & Registration
-- 📝 **Registration Form:** [Register for Jaipur 2.0](https://forms.gle/wwQ1SE7ZQb61m9MX6)
+- 📝 **Registration Form:** [Register for Jaipur 2.0](https://docs.google.com/forms/d/e/1FAIpQLSenZuoLjZMeo0nJ7NV5FAIj5QXWqFKhOhsV5efmSNrxH1G4Pw/viewform)
 - 📄 **Official Brochure:** [View Information Brochure (Google Drive)](https://drive.google.com/file/d/1V24koxLYI0o21I8dNsZBe4hqM7yjmcLN/view?usp=sharing)
 - 📸 **Past Event Photo Gallery:** [Google Photos Album](https://photos.app.goo.gl/ncd1QjkHYvoNBgff7)
 
