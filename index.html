@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youth Affairs | Where Young Minds Shape Tomorrow</title>
+<meta name="description" content="Youth Affairs — empowering young people through dialogue, debate, leadership, civic engagement, Yuva Sansad and MUNs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="preloader" id="preloader">
+  <img class="preloader-logo" src="assets/youth-affairs-logo.png" alt="">
+  <div class="preloader-track"><div class="preloader-bar"></div></div>
+</div>
+
+<div class="grain" aria-hidden="true">
+  <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <filter id="grain-filter"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="4" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#grain-filter)"/>
+  </svg>
+</div>
+
+<div class="cur-dot" id="curDot"></div>
+<div class="cur-ring" id="curRing"></div>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<div class="topline"></div>
+
+<nav id="mainNav">
+  <div class="container nav-inner">
+    <a class="brand" href="#home">
+      <img class="brand-logo" src="assets/youth-affairs-logo.png" alt="Youth Affairs">
+      <span>YOUTH<br>AFFAIRS</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#founders">Founders</a>
+      <a href="#events">Events</a>
+      <a href="#upcoming">Jaipur 2.0</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="nav-cta" href="#upcoming">Register</a>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#founders">Founders</a>
+  <a href="#events">Events</a>
+  <a href="#upcoming">Jaipur 2.0</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+  <a href="#upcoming" style="color:var(--gold-light)">Register →</a>
+</div>
+
+<main id="home">
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-kicker">Youth Affairs • संवाद • लोकतंत्र • नेतृत्व</div>
+      <div class="hero-dev">युवा आवाज़ • राष्ट्र का भविष्य</div>
+      <h1 class="hero-h1">
+        <span class="hero-h1-line"><span>Where Young Minds</span></span>
+        <span class="hero-h1-line"><span><span>Shape Tomorrow.</span></span></span>
+      </h1>
+      <p class="hero-lead">The future of democracy rests in the hands of today's youth.</p>
+      <p class="hero-text">Youth Affairs is dedicated to empowering young individuals, giving them a voice, and shaping their potential into leadership, innovation and social responsibility.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary btn-magnetic" href="#events">Explore Events</a>
+        <a class="btn btn-light btn-magnetic" href="#upcoming">Yuva Sansad Jaipur 2.0 →</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="assets/ys1.jpeg" alt="Youth Affairs event">
+      <div class="hero-seal">YOUTH<br>PARLIAMENT<br>2026</div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <div class="marquee-content">
+      <span>VOICE</span><div class="marquee-dot"></div>
+      <span>संवाद</span><div class="marquee-dot"></div>
+      <span>LEADERSHIP</span><div class="marquee-dot"></div>
+      <span>लोकतंत्र</span><div class="marquee-dot"></div>
+      <span>INNOVATION</span><div class="marquee-dot"></div>
+      <span>नेतृत्व</span><div class="marquee-dot"></div>
+      <span>RESPONSIBILITY</span><div class="marquee-dot"></div>
+      <span>DIALOGUE</span><div class="marquee-dot"></div>
+      <span>DEMOCRACY</span><div class="marquee-dot"></div>
+      <span>नवाचार</span><div class="marquee-dot"></div>
+    </div>
+    <div class="marquee-content" aria-hidden="true">
+      <span>VOICE</span><div class="marquee-dot"></div>
+      <span>संवाद</span><div class="marquee-dot"></div>
+      <span>LEADERSHIP</span><div class="marquee-dot"></div>
+      <span>लोकतंत्र</span><div class="marquee-dot"></div>
+      <span>INNOVATION</span><div class="marquee-dot"></div>
+      <span>नेतृत्व</span><div class="marquee-dot"></div>
+      <span>RESPONSIBILITY</span><div class="marquee-dot"></div>
+      <span>DIALOGUE</span><div class="marquee-dot"></div>
+      <span>DEMOCRACY</span><div class="marquee-dot"></div>
+      <span>नवाचार</span><div class="marquee-dot"></div>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div class="anim-left">
+      <div class="about-label">About Youth Affairs</div>
+      <h2>Empowering youth<br>to be heard.</h2>
+      <p>Youth Affairs creates spaces where curiosity is nurtured, critical thinking is encouraged, and diverse perspectives are valued. Through dialogue, debate and collaborative initiatives, young people are encouraged to engage with society responsibly, courageously and with purpose.</p>
+      <p>We aim to build a generation that is informed, empathetic and ready to drive meaningful change.</p>
+      <blockquote class="about-quote">"We believe that democracy is strongest when every voice is heard, every perspective is respected, and every individual has the opportunity to participate in shaping society."</blockquote>
+    </div>
+    <div class="principles-grid anim-right">
+      <div class="principle-card anim" style="--d:.05s">
+        <div class="principle-num">01</div>
+        <h3>Voice</h3>
+        <p>Empowering youth to be heard.</p>
+      </div>
+      <div class="principle-card anim" style="--d:.12s">
+        <div class="principle-num">02</div>
+        <h3>Leadership</h3>
+        <p>Building tomorrow's leaders today.</p>
+      </div>
+      <div class="principle-card anim" style="--d:.19s">
+        <div class="principle-num">03</div>
+        <h3>Innovation</h3>
+        <p>Encouraging ideas that create impact.</p>
+      </div>
+      <div class="principle-card anim" style="--d:.26s">
+        <div class="principle-num">04</div>
+        <h3>Responsibility</h3>
+        <p>Inspiring action towards society.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="founders" class="founders">
+  <div class="container">
+    <div class="section-head anim">
+      <div class="section-label">The people behind the platform</div>
+      <h2 class="section-title">Our Founders</h2>
+      <p class="section-desc">Youth Affairs is built around the belief that young people should have the confidence, space and responsibility to participate in shaping society.</p>
+    </div>
+
+    <div class="founder-grid">
+      <article class="founder-card anim" style="--d:.05s">
+        <img src="assets/founder-sayantani.jpg" alt="Sayantani, Founder of Youth Affairs">
+        <h3>Sayantani</h3>
+        <div class="founder-role">Founder</div>
+      </article>
+
+      <article class="founder-msg anim" style="--d:.15s">
+        <div class="founder-msg-inner">
+          <h3>Message from the Founders</h3>
+          <p>At Youth Affairs, we are committed to fostering dialogue, critical thinking and civic engagement among young people. In a world marked by inequality and division, we hope to create spaces where empathy, inclusivity and meaningful conversation drive positive change.</p>
+          <div class="closing">"The future belongs to those who are willing to question, learn, and work together for a more just and equitable society."</div>
+          <p style="margin-top:18px">Youth Affairs remains committed to empowering young minds and building a generation that leads with purpose and compassion.</p>
+        </div>
+      </article>
+
+      <article class="founder-card anim" style="--d:.25s">
+        <img src="assets/founder-hassan.jpg" alt="Hassan Aman, Founder of Youth Affairs">
+        <h3>Hassan Aman</h3>
+        <div class="founder-role">Founder</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="yuva">
+  <div class="container yuva-grid">
+    <div class="anim-left">
+      <div class="section-label" style="text-align:left">The flagship experience</div>
+      <h2>Yuva Sansad</h2>
+      <p class="yuva-text">Yuva Sansad brings a real-time simulation of the Lok Sabha Parliament to life. Young participants step into the shoes of Indian lawmakers, debate, discuss and shape ideas in a space designed to mirror a parliamentary environment.</p>
+      <p class="yuva-text">Youth Affairs says it has successfully conducted four Youth Parliaments across different cities, with Jaipur as the next chapter.</p>
+      <div class="stat-row">
+        <div class="stat-item">
+          <div class="stat-num" data-count="200">0</div>
+          <div class="stat-label">Exclusive seats in the<br>Jaipur simulation</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">15–23</div>
+          <div class="stat-label">Age eligibility for<br>Jaipur 2.0</div>
+        </div>
+      </div>
+    </div>
+    <div class="yuva-right anim-right">
+      <div class="yuva-right-label">Why Yuva Sansad?</div>
+      <h2>Learn. Question. Lead.</h2>
+      <p class="yuva-text">Yuva Sansad is designed to help young people understand perspectives, practise dialogue and build the confidence to represent real change. Every voice matters, and every idea can inspire action beyond the simulation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="events" class="events">
+  <div class="container">
+    <div class="section-head anim">
+      <div class="section-label">Our journey</div>
+      <h2 class="section-title">Events & Conferences</h2>
+      <p class="section-desc">Explore Youth Affairs' youth-parliament and MUN journey, from Rajasthan and Bengaluru to Yuva Samvaad MUN in Jaipur and the upcoming Jaipur 2.0.</p>
+    </div>
+    <div class="event-grid">
+
+      <article class="event-card anim" style="--d:.05s">
+        <div class="event-date"><strong>2025</strong><small>PAST<br>EDITION</small></div>
+        <div class="event-body">
+          <span class="event-tag">Youth Parliament</span>
+          <h3>Yuva Sansad Rajasthan</h3>
+          <p>An earlier Youth Affairs parliamentary simulation bringing young delegates into a structured environment for debate, policy discussion and civic participation.</p>
+          <div class="event-loc">📍 Rajasthan</div>
+        </div>
+      </article>
+
+      <article class="event-card anim" style="--d:.12s">
+        <div class="event-date"><strong>04–05</strong><small>AUG<br>2026</small></div>
+        <div class="event-body">
+          <span class="event-tag">Completed</span>
+          <h3>Yuva Sansad Bengaluru</h3>
+          <p>A two-day Youth Parliament experience in Bengaluru, extending the Youth Affairs format to another city and engaging young participants in parliamentary dialogue.</p>
+          <div class="event-loc">📍 Bengaluru</div>
+        </div>
+      </article>
+
+      <article class="event-card anim" style="--d:.19s">
+        <div class="event-date"><strong>25–26</strong><small>JUL<br>2026</small></div>
+        <div class="event-body">
+          <span class="event-tag">MUN • Completed</span>
+          <h3>Yuva Samvaad MUN 2026</h3>
+          <p>Youth Affairs' latest Jaipur event, bringing the MUN format into a space for diplomacy, international affairs, negotiation and public speaking.</p>
+          <div class="event-loc">📍 Rajasthan International Centre, Jaipur</div>
+        </div>
+      </article>
+
+      <article class="event-card anim" style="--d:.26s">
+        <div class="event-date"><strong>15–16</strong><small>NOV<br>2026</small></div>
+        <div class="event-body">
+          <span class="event-tag">Upcoming</span>
+          <h3>Yuva Sansad Jaipur 2.0</h3>
+          <p>A two-day realistic Lok Sabha simulation with 200 exclusive seats, real Indian portfolios and a ₹40,000 cash prize pool.</p>
+          <div class="event-loc">📍 Rajasthan International Center, Jhalana Doongri, Jaipur</div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="upcoming" class="upcoming">
+  <div class="container upcoming-grid">
+    <div class="anim-left">
+      <div class="upcoming-label">Upcoming • Yuva Sansad Jaipur 2.0</div>
+      <h2>15 & 16<br>November 2026</h2>
+      <p class="upcoming-text">Step into a realistic parliamentary simulation where every portfolio carries responsibility and every intervention has a purpose.</p>
+      <div class="upcoming-time">8:00 AM – 6:00 PM</div>
+      <div class="upcoming-prize">₹40,000 CASH PRIZE POOL</div>
+      <div class="upcoming-ctas">
+        <a class="btn btn-primary btn-magnetic" href="https://forms.gle/wwQ1SE7ZQb61m9MX6" target="_blank" rel="noopener">Register Now →</a>
+        <a class="btn btn-light btn-magnetic" href="https://drive.google.com/file/d/1V24koxLYI0o21I8dNsZBe4hqM7yjmcLN/view?usp=sharing" target="_blank" rel="noopener">View Brochure</a>
+      </div>
+    </div>
+
+    <div class="agenda-list anim-right">
+      <div class="agenda-item anim" style="--d:.05s"><b>DAY 01 • EDUCATION</b><span>From NEP to NEET: Rethinking India's Education & Examination System with Special Emphasis on Paper Leaks.</span></div>
+      <div class="agenda-item anim" style="--d:.12s"><b>DAY 02 • REPRESENTATION</b><span>Women's Reservation and Delimitation: Can India Afford to Wait?</span></div>
+      <div class="agenda-item anim" style="--d:.19s"><b>THE FORMAT</b><span>200 seats • real Indian portfolios • parliamentary procedure • policy debate • research • negotiation • public speaking</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="details">
+  <div class="container">
+    <div class="section-head anim">
+      <div class="section-label">Jaipur 2.0</div>
+      <h2 class="section-title">Event Details</h2>
+      <p class="section-desc">Everything delegates need to know before stepping into the House.</p>
+    </div>
+    <div class="detail-grid">
+      <div class="detail-card"><b>Venue</b><span>Rajasthan International Center, Jhalana Doongri, Jaipur</span></div>
+      <div class="detail-card"><b>Age Eligibility</b><span>15 to 23 years</span></div>
+      <div class="detail-card"><b>Dress Code</b><span>No mandatory dress code. Formal, neat and dignified attire is encouraged.</span></div>
+      <div class="detail-card"><b>Hospitality</b><span>Breakfast, Lunch and High Tea during conference hours on both days.</span></div>
+      <div class="detail-card"><b>Study Material</b><span>Curated background and study material will be shared in advance.</span></div>
+      <div class="detail-card"><b>Awards</b><span>Certificates for all delegates, outstanding-performance awards and a ₹40,000 cash prize pool.</span></div>
+      <div class="detail-card"><b>Accommodation</b><span>Available at ₹1,200 per night on triple occupancy at a 4-star hotel.</span></div>
+      <div class="detail-card"><b>Training</b><span>Online pre-conference training and orientation sessions will be conducted before the conference.</span></div>
+      <div class="detail-card"><b>Communication</b><span>Official announcements and conference updates will be shared through designated official channels.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="container">
+    <div class="section-head anim">
+      <div class="section-label">Moments that matter</div>
+      <h2 class="section-title">From the Floor to the Gallery</h2>
+      <p class="section-desc">Selected visuals from Youth Affairs and Yuva Sansad. More past-event photographs are available in the shared album.</p>
+    </div>
+    <div class="gallery-grid anim">
+      <figure class="gallery-main"><img src="assets/ys2.jpeg" alt="Yuva Sansad Jaipur 2.0 poster" class="parallax-img"><figcaption class="gallery-caption">Yuva Sansad Jaipur 2.0 • 15–16 November 2026</figcaption></figure>
+      <figure class="gallery-side"><img src="assets/ys3.jpeg" alt="Youth Affairs event audience" class="parallax-img"><figcaption class="gallery-caption">A room filled with young voices and ideas.</figcaption></figure>
+      <figure class="gallery-side"><img src="assets/ys4.jpeg" alt="Youth Affairs event notebooks" class="parallax-img"><figcaption class="gallery-caption">The work behind every debate begins with preparation.</figcaption></figure>
+    </div>
+    <div class="gallery-cta anim">
+      <a class="btn btn-light btn-magnetic" href="https://photos.app.goo.gl/ncd1QjkHYvoNBgff7" target="_blank" rel="noopener">View Past Event Photos ↗</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-head anim">
+      <div class="about-label">Contact Youth Affairs</div>
+      <h2>Questions?<br>Speak to the team.</h2>
+      <p>For registration or event-related queries, the brochure provides the following official contacts and social channels.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card anim" style="--d:.05s">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--gold-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <div class="founder-role">Chief Advisor</div>
+        <h3>Saanzhi</h3>
+        <a class="contact-phone" href="tel:+919887459531">+91 98874 59531</a>
+      </div>
+      <div class="contact-card anim" style="--d:.12s">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--gold-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <div class="founder-role">President</div>
+        <h3>Mansi Godha</h3>
+        <a class="contact-phone" href="tel:+917877922130">+91 78779 22130</a>
+      </div>
+      <div class="contact-card anim" style="--d:.19s">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--gold-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <div class="founder-role">Co-President</div>
+        <h3>Vedaant Yadav</h3>
+        <a class="contact-phone" href="tel:+919887188424">+91 98871 88424</a>
+      </div>
+    </div>
+
+    <div class="contact-links anim">
+      <div class="cl-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <a href="mailto:youthaffairs.in@gmail.com">youthaffairs.in@gmail.com</a>
+      </div>
+      <div class="cl-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <a href="tel:+919664109446">+91 96641 09446</a>
+      </div>
+      <div class="cl-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--gold-light)"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        <a href="https://www.instagram.com/youth_affairs.in/" target="_blank" rel="noopener">@youth_affairs.in</a>
+        <span style="opacity:.4">•</span>
+        <a href="https://www.instagram.com/yuvasansad.official/" target="_blank" rel="noopener">@yuvasansad.official</a>
+      </div>
+      <div class="cl-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <a href="https://youthaffairs.in" target="_blank" rel="noopener">youthaffairs.in</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-brand" aria-hidden="true">YOUTH AFFAIRS</div>
+    <div class="foot-grid">
+      <div>
+        <h4>About</h4>
+        <p>Empowering young individuals through dialogue, debate, civic engagement, leadership and collaborative initiatives.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <p><a href="#about">About</a><br><a href="#founders">Founders</a><br><a href="#events">Events</a><br><a href="#upcoming">Yuva Sansad 2.0</a></p>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <p><a href="#contact">Contact</a><br><a href="https://www.instagram.com/youth_affairs.in/" target="_blank">Instagram</a><br><a href="https://photos.app.goo.gl/ncd1QjkHYvoNBgff7" target="_blank">Past Photos</a></p>
+        <div class="foot-social">
+          <a class="foot-social-link" href="https://www.instagram.com/youth_affairs.in/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a class="foot-social-link" href="mailto:youthaffairs.in@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+          <a class="foot-social-link" href="tel:+919664109446" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Youth Affairs. All rights reserved.</span>
+      <span>संवाद • विचार • नेतृत्व</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#home" class="back-top" id="backTop" aria-label="Back to top">↑</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
