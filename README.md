@@ -121,7 +121,7 @@ Then visit `http://localhost:8000` in your web browser.
 ## 📬 Contact & Socials
 
 - **Official Email:** [youthaffairs.in@gmail.com](mailto:youthaffairs.in@gmail.com)
-- **Website:** [youthaffairs.in](https://youthaffairs.in)
+- **Website:** [youthaffairs.quest](https://youthaffairs.quest)
 - **Instagram (Youth Affairs):** [@youth_affairs.in](https://www.instagram.com/youth_affairs.in/)
 - **Instagram (Yuva Sansad):** [@yuvasansad.official](https://www.instagram.com/yuvasansad.official/)
 - **Phone / WhatsApp Inquiries:**
